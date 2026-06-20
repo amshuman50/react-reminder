@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 import UpcomingPage from "./pages/UpcomingPage";
 import AddPage from "./pages/AddPage";
 import EditPage from "./pages/EditPage";
-import MainLayout from "./layouts/MainLayout";
+import MainLayout from "./Layouts/MainLayout";
 
 const Router = () => {
     return (

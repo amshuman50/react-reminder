@@ -8,7 +8,7 @@ import MainLayout from "./Layouts/MainLayout";
 
 const Router = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter  basename="/react-reminder">
             <Routes>
                 <Route path="/" element={<MainLayout />}>
                     <Route index element={<HomePage />} />
